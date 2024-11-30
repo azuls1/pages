@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="icon" href="https://lh4.googleusercontent.com/Mt7aO83qD9RJeTu2hh7-wa9Dop3CN9A07RwRxg3iQPZnc_-a-KD8Bc3w7IADFt4rHMN6XDPcvXOExs9N5GMzc0-Ta3ZIxY47_bERX2bZaq2o_y2p" type="image/png">
+    <link rel="icon" href="https://ssl.gstatic.com/classroom/favicon.png" type="image/png">
     <link rel="stylesheet" href="css/iframe.css">
+    <link rel="stylesheet" href="css/loading.css">
 </head>
 <body>
+    <div class="loading-screen">
+        <div class="loader-container">
+            <div class="loading-bar">
+                <div class="loading-fill"></div>
+            </div>
+            <div class="loading-text">Loading assets 0/19</div>
+        </div>
+    </div>
     <iframe src="/static/embed#https://nowgg.lol/?utm_source=now.gg-partner&utm_medium=bot&utm_campaign=carl" frameborder="0"></iframe>
     <script src="/static/uv/uv.bundle.js" defer></script>
     <script src="/static/uv/uv.config.js" defer></script>
     <script src="static/register-sw.js" defer></script>
     <script src="static/search.js" defer></script>
     <script src="static/index.js" defer></script>
+    <script src="scripts/loader.js" defer></script>
 </body>
 </html>
