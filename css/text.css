@@ -1,16 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
 body {
     margin: 0;
     height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: black;
-    font-family: 'Rubik', sans-serif;
+    align-items: center;
+    background-color: #000;
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
 }
 
-.loading-text {
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1400px;
+}
+
+.text {
     font-size: 4rem;
-    color: white;
+    font-weight: 700;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 300px;
+    height: auto;
+}
+
+.overlay-logo {
+    max-width: 120px;
+    height: auto;
+    margin-left: -30px;
 }
